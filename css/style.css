@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+    color: white;
+}
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    border-style: double;
+}
+th, td{
+    border: solid;
+}
