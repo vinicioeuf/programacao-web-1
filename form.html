@@ -1,0 +1,31 @@
+<fieldset style="width: 400;">
+<form action="form.html" method="post" style="width: 400;">
+    <fieldset>
+        <legend>Detalhes gerais</legend>
+        <label for="nome">Nome: <input type="text" placeholder="Robin Jackman"></label><br><br>
+        <label for="email">Email: <input type="email" placeholder="robin@exemplo.com"></label><br><br>
+        <label for="gender">Genero: <input type="radio" name="gender" id="gender" checked>Masculino</label>
+        <label for="2"> <input type="radio" name="gender" id="2">Feminino</label><br><br>
+        <label for="how">Onde ouviu falar de nós: 
+            <select name="how" id="how">
+                <option value="search" selected disabled>Procurar</option>
+                <option value="google">Google</option>
+                <option value="facebook">facebook</option>
+                <option value="linkedin">Linkedin</option>
+            </select>
+        </label><br><br>
+        <label for="textarea">Comentários:</label><br>
+        <textarea id="" cols="30" rows="4" placeholder="Ótima fonte :-)"></textarea>
+
+    </fieldset>
+    <fieldset>
+        <legend>Detalhes da conta do usuário</legend>
+        <label for="">Nome de usuário: <input type="text" placeholder="robin"></label><br><br>
+        <label for="">Senha: <input type="password" placeholder="******"></label><br><br>
+        <label for="">Assinatura de Newsletter: <input type="checkbox" checked> Artigos PHP <input type="checkbox" name="" id=""> Noticias PHP</label>
+
+    </fieldset>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</form>
+</fieldset>
